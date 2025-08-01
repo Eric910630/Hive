@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak
+.env.bak
+
+# 我们自己的虚拟环境
+hive_env/
+
+# Databases
+*.sqlite3
+*.db
+hive_memory.db # 我们明确地忽略掉数据库文件
+
+# Logs
+*.log
+logs/
+hive.log # 我们明确地忽略掉日志文件
+
+# Front-end dependencies
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# 我们之前创建的本地环境变量文件
+frontend/.env.local
+
+# macOS specific
+.DS_Store

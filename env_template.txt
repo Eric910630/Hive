@@ -1,0 +1,20 @@
+# Hive AI System - Environment Variables Template
+# Copy this file to .env and fill in your actual API keys
+
+# DeepSeek API Configuration
+# Get your API key from: https://platform.deepseek.com/
+DEEPSEEK_API_KEY=your_deepseek_api_key_here
+
+# Optional: Set the model name (default: deepseek-chat)
+DEEPSEEK_MODEL_NAME=deepseek-chat
+
+# Optional: Set the base URL (default: https://api.deepseek.com)
+DEEPSEEK_BASE_URL=https://api.deepseek.com
+
+# System Configuration
+# Set to 'true' to enable debug logging
+DEBUG=false
+
+# Database Configuration (optional)
+# If you want to use a different database path
+# HIVE_DB_PATH=./hive_memory.db 

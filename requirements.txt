@@ -1,0 +1,19 @@
+# requirements.txt (v2.1 - LangChain Modular Architecture Update)
+
+# Core Web Server Components
+fastapi
+uvicorn
+sse-starlette
+
+# LangChain Stack - Following latest modular architecture
+langchain
+langgraph
+langchain-deepseek
+langchain-community
+langchain-tavily  # <-- 新增：Tavily的官方独立包，解决弃用警告
+
+# Utilities
+python-dotenv
+pytz
+numexpr
+google-search-results
